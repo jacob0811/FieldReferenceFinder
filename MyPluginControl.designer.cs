@@ -75,7 +75,7 @@
             this.tsbExport});
             this.toolStripMenu.Location = new System.Drawing.Point(0, 0);
             this.toolStripMenu.Name = "toolStripMenu";
-            this.toolStripMenu.Size = new System.Drawing.Size(1200, 34);
+            this.toolStripMenu.Size = new System.Drawing.Size(1200, 38);
             this.toolStripMenu.TabIndex = 4;
             this.toolStripMenu.Text = "toolStrip1";
             // 
@@ -104,9 +104,9 @@
             // 
             this.panelMain.Controls.Add(this.splitContainer);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 34);
+            this.panelMain.Location = new System.Drawing.Point(0, 38);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1200, 597);
+            this.panelMain.Size = new System.Drawing.Size(1200, 593);
             this.panelMain.TabIndex = 5;
             // 
             // splitContainer
@@ -124,8 +124,8 @@
             // splitContainer.Panel2
             // 
             this.splitContainer.Panel2.Controls.Add(this.groupBoxResults);
-            this.splitContainer.Size = new System.Drawing.Size(1200, 597);
-            this.splitContainer.SplitterDistance = 199;
+            this.splitContainer.Size = new System.Drawing.Size(1200, 593);
+            this.splitContainer.SplitterDistance = 197;
             this.splitContainer.TabIndex = 0;
             // 
             // groupBoxFieldSelection
@@ -137,7 +137,7 @@
             this.groupBoxFieldSelection.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBoxFieldSelection.Location = new System.Drawing.Point(0, 0);
             this.groupBoxFieldSelection.Name = "groupBoxFieldSelection";
-            this.groupBoxFieldSelection.Size = new System.Drawing.Size(603, 199);
+            this.groupBoxFieldSelection.Size = new System.Drawing.Size(603, 197);
             this.groupBoxFieldSelection.TabIndex = 0;
             this.groupBoxFieldSelection.TabStop = false;
             this.groupBoxFieldSelection.Text = "Field Selection";
@@ -190,7 +190,7 @@
             this.groupBoxSearchOptions.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxSearchOptions.Location = new System.Drawing.Point(603, 0);
             this.groupBoxSearchOptions.Name = "groupBoxSearchOptions";
-            this.groupBoxSearchOptions.Size = new System.Drawing.Size(597, 199);
+            this.groupBoxSearchOptions.Size = new System.Drawing.Size(597, 197);
             this.groupBoxSearchOptions.TabIndex = 1;
             this.groupBoxSearchOptions.TabStop = false;
             this.groupBoxSearchOptions.Text = "Search Options";
@@ -249,7 +249,7 @@
             this.groupBoxResults.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxResults.Location = new System.Drawing.Point(0, 0);
             this.groupBoxResults.Name = "groupBoxResults";
-            this.groupBoxResults.Size = new System.Drawing.Size(1200, 394);
+            this.groupBoxResults.Size = new System.Drawing.Size(1200, 392);
             this.groupBoxResults.TabIndex = 0;
             this.groupBoxResults.TabStop = false;
             this.groupBoxResults.Text = "Search Results";
@@ -269,7 +269,7 @@
             this.dataGridViewResults.Name = "dataGridViewResults";
             this.dataGridViewResults.ReadOnly = true;
             this.dataGridViewResults.RowHeadersWidth = 62;
-            this.dataGridViewResults.Size = new System.Drawing.Size(1194, 369);
+            this.dataGridViewResults.Size = new System.Drawing.Size(1194, 367);
             this.dataGridViewResults.TabIndex = 0;
             // 
             // ColumnType

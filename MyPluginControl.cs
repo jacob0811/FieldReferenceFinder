@@ -35,7 +35,7 @@ namespace FieldReferenceFinder
 
         private void MyPluginControl_Load(object sender, EventArgs e)
         {
-            ShowInfoNotification("Field Reference Finder - Select a table and field to search for references", new Uri("https://github.com/MscrmTools/XrmToolBox"));
+            ShowInfoNotification("Field Reference Finder - Select a table and field to search for references", new Uri("https://github.com/bscarlav/FieldReferenceFinder"));
 
             // Loads or creates the settings for the plugin
             if (!SettingsManager.Instance.TryLoad(GetType(), out mySettings))
@@ -183,8 +183,7 @@ namespace FieldReferenceFinder
                         
                         // Filter for custom attributes that are not managed
                         var attributes = response.EntityMetadata.Attributes
-                            .Where(a => a.IsManaged == false && 
-                                       a.AttributeType != Microsoft.Xrm.Sdk.Metadata.AttributeTypeCode.Virtual)
+                            .Where(a => a.AttributeType != Microsoft.Xrm.Sdk.Metadata.AttributeTypeCode.Virtual)
                             .OrderBy(a => a.LogicalName)
                             .Select(a => a.LogicalName)
                             .ToList();
